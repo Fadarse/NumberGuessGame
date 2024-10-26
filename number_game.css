@@ -1,0 +1,23 @@
+body, html {
+    box-sizing: border-box;
+
+}
+.main-container {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.select-option {
+    width: 130px;
+    height: 24px;
+    margin: 24px;
+}
+.game-result {
+    display: block;
+    width: 100%;
+    height: 12px;
+    margin: 25px 0px;
+    
+}

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fadarse/number_guess_game</title>
+    <link rel="stylesheet" href="number_game.css">
+</head>
+<body>
+
+    <div class="main-container">
+        <H1>SUPER NUMBER GAME</H1>
+
+        <select class="select-option" id="difficulty">
+            <option value="easy">EASY(0-10)</option>
+            <option value="intermediate">INTERMEDIATE(0-20)</option>
+            <option value="advanced">ADVANCED(0-100)</option>
+        </select>
+
+        <form class="form" id="form">
+            <input id="userInput" name="guess" type="number" placeholder="Type your number here">
+            <button id="submitB">SUBMIT</button>
+        </form>
+        <div id="gameResult" class="game-result"> </div>
+    </div>
+    <script src="number_game.js"></script>
+</body>
+</html>
